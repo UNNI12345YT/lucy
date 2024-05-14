@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Codeflix-Bots/AutoFilter",
-    "repository": "https://github.com/Codeflix-Bots/AutoFilter",
+    "website": "https://github.com/UNNI12345YT/lucy",
+    "repository": "https://github.com/UNNI12345YT/lucy",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
