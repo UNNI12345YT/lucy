@@ -177,7 +177,7 @@ async def give_filter(client, message):
                 parse_mode=enums.ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton('✧ ᴛᴀᴋᴇ ᴍᴏᴠɪᴇ ꜰʀᴏᴍ ʜᴇʀᴇ ✧', url ='https://telegram.me/movie7xchat')
+                            InlineKeyboardButton('✧ ᴛᴀᴋᴇ ᴍᴏᴠɪᴇ ꜰʀᴏᴍ ʜᴇʀᴇ ✧', url ='https://t.me/mangalassery_movies_group')
                         ]]
                     )
                 )
@@ -271,7 +271,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
+            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/UNNI_YT"),
             InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -656,7 +656,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
+            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/UNNI_YT"),
             InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -857,7 +857,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/OtakuFlix_Network/4639"),
+            InlineKeyboardButton("ᴘʀᴇᴍɪᴜᴍ", url=f"https://t.me/UNNI_YT"),
             InlineKeyboardButton("sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
     
@@ -1571,7 +1571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("• ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=lazy_download),
                     InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ •", url=lazy_stream)
                 ],[
-                    InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url='https://t.me/codeflix_bots')
+                    InlineKeyboardButton('📌 ᴊᴏɪɴ MOVIE GROUP 📌', url='https://t.me/mangalassery_movies_group')
                 ]]
             else:
                 await query.answer("🚸 ɴᴏᴛᴇ :\nᴀᴅ-ꜰʀᴇᴇ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴏɴʟʏ ꜰᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ.\n\nᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴄʜᴇᴄᴋ ᴘʟᴀɴꜱ.", show_alert=True)
@@ -2878,15 +2878,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/Team_Netflix/33")
+            InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/UNNI_YT")
        ],[
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/movie7xchat"),
-            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/team_netflix")
+            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/mangalassery_movies_group"),
+            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/mangalassery_movies_group")
        ],[
-            InlineKeyboardButton('• sᴇʀɪᴇsғʟɪx •', url="https://t.me/+fAjYIpR5Ju02M2Q1"),
-            InlineKeyboardButton('• ᴍᴏᴠɪᴇғʟɪx •', url="https://t.me/+KeFIjHXhzLMyMWZl")
-       ],[
-            InlineKeyboardButton('• ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ •', url="https://t.me/Anime_Cruise_Netflix")
+
+    
+            InlineKeyboardButton('• UNNI_YT •', url="https://t.me/mangalassery_movies_group")
        ],[ 
             InlineKeyboardButton('◁ ʙᴀᴄᴋ', callback_data='start')
         ]]
